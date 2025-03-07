@@ -1,27 +1,12 @@
 @model IEnumerable<Lego_Inventory.Models.Legoset>
 
 @{
-    ViewBag.Title = "Lego Sets";
+    ViewBag.Title = "LEGO Landing Page";
 }
 
-<p>
-    <a href="/Lego/Create">Add New LEGO Set</a>
-</p>
-
-<table border="1" cellpadding="5">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-    @foreach (var set in Model)
-    {
-        <tr>
-            <td>@set.Name</td>
-            <td>@set.Description</td>
-        </tr>
-    }
-    </tbody>
-</table>
+<h2>Welcome to the LEGO Inventory System!</h2>
+<p>Select an action below:</p>
+<ul>
+    <li><a asp-controller="Lego" asp-action="LegoList">View LEGO List</a></li>
+    <li><a asp-controller="Lego" asp-action="Create">Add a New LEGO Set</a></li>
+</ul>
