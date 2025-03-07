@@ -14,13 +14,14 @@ namespace LegoInventory.Data
         private readonly List<Legoset> _inMemoryStorage = new List<Legoset>();
         private readonly bool _UseInMemory;
 
-#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
+
         public LegoRepository(IConfiguration configuration)
-#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
+
         {
-            // Read connection settings from appsettings.json
+            
             try
             {
+                // Read connection settings from appsettings.json
                 var connnectionString = configuration["MongoDb:ConnectionString"];
                 var databaseName = configuration["MongoDb:DatabaseName"];
 
