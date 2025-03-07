@@ -13,16 +13,16 @@ namespace Lego_Inventory.Controllers
     
     public class LegoController : Controller
     {
-        private readonly ILegoRespository _legoRepository;
+        private readonly ILegoRepository _legoRepository;
 
-        public LegoController(ILegoRespository legoRespository)
+        public LegoController(ILegoRepository legoRespository)
         {
             _legoRepository = legoRespository;
         }
         // GET: /Lego/
         public async Task<IActionResult> Index()
         {
-            var legoSets = await _legoRepository.GetAllAsyns();
+            var legoSets = await _legoRepository.GetAllAsync();
             return View(legoSets);
         }
         // GET: /Lego/Create

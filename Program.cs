@@ -1,7 +1,17 @@
+using Lego_Inventory.Data;
+using Lego_Inventory.Models;
+using Microsoft.AspNetCore.Builder;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+// Register the LegoRepository as a singleton service
+builder.Services.AddSingleton<ILegoRepository, LegoRepository>();
+
 
 var app = builder.Build();
 
@@ -14,12 +24,13 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
 
 app.MapStaticAssets();
-
+// Set the default route for the application
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")

@@ -1,16 +1,16 @@
+using Lego_Inventory.Data;
 using Lego_Inventory.Models;
-
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace LegoInventory.Data 
+namespace Lego_Inventory.Data 
 {
-    public class LegoRepository
+    public class LegoRepository : ILegoRepository
     {
-        private readonly IMongoCollection<Legoset> _collection;
+        private readonly IMongoCollection<Legoset> _collection= null!;
         private readonly List<Legoset> _inMemoryStorage = new List<Legoset>();
         private readonly bool _UseInMemory;
 

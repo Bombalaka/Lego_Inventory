@@ -6,9 +6,9 @@ using Lego_Inventory.Models;
 
 namespace Lego_Inventory.Data
 {
-    public interface ILegoRespository
+    public interface ILegoRepository
     {
-        Task<List<Legoset>> GetAllAsyns();
+        Task<List<Legoset>> GetAllAsync();
         Task AddAsync(Legoset legoset);
 
     }
