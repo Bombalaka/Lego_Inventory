@@ -1,0 +1,27 @@
+@model IEnumerable<LegoInventory.Models.LegoSet>
+
+@{
+    ViewBag.Title = "Lego Sets";
+}
+
+<p>
+    <a href="/Lego/Create">Add New LEGO Set</a>
+</p>
+
+<table border="1" cellpadding="5">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var set in Model)
+    {
+        <tr>
+            <td>@set.Name</td>
+            <td>@set.Description</td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+@model LegoInventory.Models.LegoSet
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Name">Name:</label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label for="Description">Description:</label>
+        <input asp-for="Description" />
+    </div>
+    <div>
+        <button type="submit">Add LEGO Set</button>
+    </div>
+</form>
