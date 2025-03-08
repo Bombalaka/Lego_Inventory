@@ -1,6 +1,7 @@
 using Lego_Inventory.Data;
 using Lego_Inventory.Models;
 using Microsoft.Extensions.Configuration;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -26,15 +27,22 @@ namespace Lego_Inventory.Data
                 var databaseName = configuration["MongoDb:DatabaseName"];
 
                 var client = new MongoClient(connnectionString);
+                 // **Test if MongoDB is reachable**
+                var pingCommand = new BsonDocument("ping", 1);
+                client.GetDatabase(databaseName).RunCommand<BsonDocument>(pingCommand);
+
                 var database = client.GetDatabase(databaseName);
                 _collection = database.GetCollection<Legoset>("legosets");
 
+                Console.WriteLine("✅ Connected to MongoDB!");
+
                 //simple test to check if mongobd is working
-                _collection.Find(_=>true).FirstOrDefault();
-            }
-            catch (Exception)
-            {
                 
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("❌ Failed to connect to MongoDB. Running in-memory instead.");
+                Console.WriteLine($"Error: {ex.Message}");
                 //if any error occurs, use in memory storage
                 _UseInMemory = true;
             }
