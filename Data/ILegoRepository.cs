@@ -10,6 +10,8 @@ namespace Lego_Inventory.Data
     {
         Task<List<Legoset>> GetAllAsync();
         Task AddAsync(Legoset legoset);
+        Task<Legoset> GetByIdAsync(string id); // ✅ Add this method
+        Task UpdateAsync(Legoset legoSet); // ✅ Add this if it's missing
 
     }
 }

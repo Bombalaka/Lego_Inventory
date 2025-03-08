@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Lego_Inventory.Controllers
 {
-    
+
     public class LegoController : Controller
     {
         private readonly ILegoRepository _legoRepository;
@@ -29,10 +29,10 @@ namespace Lego_Inventory.Controllers
         public async Task<IActionResult> LegoList()
         {
             var legoSets = await _legoRepository.GetAllAsync();
-            Console.WriteLine($"Total LEGO sets: {legoSets.Count}"); 
+            Console.WriteLine($"Total LEGO sets: {legoSets.Count}");
             return View(legoSets);
         }
-         // GET: Create page
+        // GET: Create page
         public IActionResult Create()
         {
             return View();
@@ -47,9 +47,37 @@ namespace Lego_Inventory.Controllers
                 await _legoRepository.AddAsync(legoSet);
                 return RedirectToAction(nameof(LegoList));
             }
-            return View("Create",legoSet);
+            return View("Create", legoSet);
+        }
+        // GET: Show the Edit form
+        public async Task<IActionResult> Edit(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+            {
+                return NotFound(); // If no ID is provided, return 404
+            }
+
+            var legoSet = await _legoRepository.GetByIdAsync(id);
+            if (legoSet == null)
+            {
+                return NotFound(); // If no LEGO set found, return 404
+            }
+
+            return View(legoSet); // Pass the LEGO set to Edit.cshtml
         }
 
+        // POST: Save the edited LEGO set
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(Legoset legoSet)
+        {
+            if (ModelState.IsValid)
+            {
+                await _legoRepository.UpdateAsync(legoSet);
+                return RedirectToAction(nameof(LegoList));
+            }
+            return View(legoSet); // Return to the Edit view if validation fails
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

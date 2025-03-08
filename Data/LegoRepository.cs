@@ -71,5 +71,33 @@ namespace Lego_Inventory.Data
                 await _collection.InsertOneAsync(legoset);
             }
         }
+        public async Task<Legoset> GetByIdAsync(string id)
+        {
+            if (_UseInMemory)
+            {
+                return _inMemoryStorage.Find(x => x.Id == id)!;
+            }
+            else
+            {
+                var objectId = new ObjectId(id);
+                return await _collection.Find(x => x.Id == id).FirstOrDefaultAsync();
+            }
+        }
+        public async Task UpdateAsync(Legoset legoset)
+        {
+            if (_UseInMemory)
+            {
+                var existing = _inMemoryStorage.Find(x => x.Id == legoset.Id);
+                if (existing != null)
+                {
+                    existing.Name = legoset.Name;
+                    existing.Description = legoset.Description;
+                }
+            }
+            else
+            {
+                await _collection.ReplaceOneAsync(x => x.Id == legoset.Id, legoset);
+            }
+        }
     }
 }
