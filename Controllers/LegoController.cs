@@ -33,7 +33,6 @@ namespace Lego_Inventory.Controllers
             return View(legoSets);
         }
          // GET: Create page
-         [HttpGet]
         public IActionResult Create()
         {
             return View();

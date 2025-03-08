@@ -5,27 +5,35 @@
 }
 
 <h2>LEGO Sets</h2>
+
+@if (!Model.Any())
+{
+    <p>No subscribers yet.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var set in Model)
+            {
+                <tr>
+                    <td>@set.Name</td>
+                    <td>@set.Description</td>
+                    <td>
+                        <a asp-controller="Lego" asp-action="Edit" asp-route-id="@set.Id">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
 <p>
     <a asp-controller="Lego" asp-action="Create">Add New LEGO Set</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-    @foreach (var set in Model)
-    {
-        <tr>
-            <td>@set.Name</td>
-            <td>@set.Description</td>
-            <td>
-                <a asp-controller="Lego" asp-action="Edit" asp-route-id="@set.Id">Edit</a>
-            </td>
-        </tr>
-    }
-    </tbody>
-</table>
