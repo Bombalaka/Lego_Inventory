@@ -1,0 +1,48 @@
+#cloud-config
+package_update: true
+# Install .Net Runtime 8.0
+runcmd:
+  # install .net runtime 9.0
+  - add-apt-respository ppa:dotnet/backports
+  - apt-get update
+  - apt-get install -y aspnetcore-runtime-9.0
+
+  # create the port /opt/Lego_Invenyory directory
+  - mkdir -p /opt/Lego_Inventory
+  - chown azureuser:azureuser /opt/Lego_Inventory
+  
+
+# Create a service for the application
+write_files:
+  - path: /etc/systemd/system/Lego_Inventory.service
+    content: |
+      [Unit]
+      Description=ASP.NET Web App running on Ubuntu
+
+      [Service]
+      WorkingDirectory=/opt/Lego_Inventory
+      ExecStart=/usr/bin/dotnet /opt/Lego_Inventory/Lego_Inventory.dll
+      Restart=always
+      RestartSec=10
+      KillSignal=SIGINT
+      SyslogIdentifier=Lego_Inventory
+      User=www-data
+      EnviromentFile=/etc/Lego_Inventory/.env
+
+      [Install]
+      WantedBy=multi-user.target      
+    owner: root:root
+    permissions: '0644'
+    
+    #create a directory for the environment file
+  - path: /ect/Lego_Inventory/.env
+    content: |
+      ASPNETCORE_ENVIRONMENT=Production
+      ASPNETCORE_URLS=http://+:5000
+    owner: root:root
+    permissions: '0600'
+
+systemd:
+  units:
+    - name: Lego_Inventory.service
+      enabled: true
