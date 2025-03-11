@@ -1,6 +1,6 @@
 #cloud-config
 package_update: true
-# Install .Net Runtime 8.0
+
 runcmd:
   # install .net runtime 9.0
   - add-apt-respository ppa:dotnet/backports
