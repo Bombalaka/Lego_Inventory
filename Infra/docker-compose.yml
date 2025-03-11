@@ -1,4 +1,3 @@
-
 services:
   mongodb:
     image: mongo
@@ -8,16 +7,15 @@ services:
     restart: always
     volumes:
       - mongo_data:/data/db
-  networks:
-  mongo_network:
-    driver: bridge
+    networks:
+      - mongo_network
 
   mongo-express:
     image: mongo-express:latest
     container_name: mongo-express
     restart: always
     ports:
-      - "8082:8081"
+      - "8081:8081"
     environment:
       ME_CONFIG_MONGODB_ADMINUSERNAME: ${MONGO_USERNAME:-root}
       ME_CONFIG_MONGODB_ADMINPASSWORD: ${MONGO_PASSWORD:-example}
@@ -28,9 +26,8 @@ services:
       - mongo_network
 
 volumes:
-  mongodb_data:
+  mongo_data:
 
 networks:
   mongo_network:
     driver: bridge
- 

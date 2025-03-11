@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lego_Inventory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7793c3466eb43b5f1ffb5c280ba6a2a4835024d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f03c95a02692b390224d01ed622a146ecf2365f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lego_Inventory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lego_Inventory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
