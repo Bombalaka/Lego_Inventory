@@ -55,19 +55,6 @@ Modify the MongoDB connection string if necessary:
 dotnet build
 dotnet run
 ```
-Open **http://localhost:5132** in your browser.
-
----
-
-## 📜 API Endpoints
-| HTTP Method | Endpoint | Description |
-|------------|---------|-------------|
-| **GET** | `/Lego/LegoList` | View all LEGO sets |
-| **GET** | `/Lego/Create` | Show form to add a new LEGO set |
-| **POST** | `/Lego/Create` | Save new LEGO set to database |
-| **GET** | `/Lego/Edit/{id}` | Show form to edit an existing LEGO set |
-| **POST** | `/Lego/Edit` | Save updated LEGO set |
-| **POST** | `/Lego/Delete/{id}` | Delete a LEGO set |
 
 ---
 
@@ -116,6 +103,7 @@ Check the console output:
 ```bash
 ❌ Failed to connect to MongoDB. Running in-memory mode.
 ```
+
 **Fix:** Verify that MongoDB is reachable and update connection settings.
 
 ---
