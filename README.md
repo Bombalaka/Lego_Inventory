@@ -136,5 +136,5 @@ This project is open-source under the **MIT License**.
 ## 📧 Contact
 For questions, feel free to reach out:
 - GitHub Issues: [Open an Issue](https://github.com/yourusername/lego-inventory/issues)
-- Email: your-email@example.com
+- Email: evamariaarroyo@gmail.com
 
