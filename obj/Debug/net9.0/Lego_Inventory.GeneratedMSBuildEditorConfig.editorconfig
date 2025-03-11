@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lego_Inventory
 build_property.RootNamespace = Lego_Inventory
-build_property.ProjectDir = C:\Users\yotak\Lego_Inventory\Lego_Inventory\
+build_property.ProjectDir = c:\Users\yotak\Lego_Inventory\Lego_Inventory\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\yotak\Lego_Inventory\Lego_Inventory
+build_property.MSBuildProjectDirectory = c:\Users\yotak\Lego_Inventory\Lego_Inventory
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Home/Index.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Home/Privacy.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Lego/Create.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Lego/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVnb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Lego/Edit.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Lego/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVnb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Lego/Index.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Lego/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVnb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Lego/LegoList.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Lego/LegoList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVnb1xMZWdvTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Shared/Error.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/_ViewImports.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/_ViewStart.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Shared/_Layout.cshtml]
+[c:/Users/yotak/Lego_Inventory/Lego_Inventory/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5uln8wa2iu
