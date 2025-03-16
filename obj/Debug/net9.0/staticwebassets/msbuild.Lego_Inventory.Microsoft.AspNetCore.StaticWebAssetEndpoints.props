@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/css/site.b9sayid5wm.css">
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/css/site.7uu640pnf8.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b9sayid5wm"},{"Name":"integrity","Value":"sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="},{"Name":"label","Value":"_content/Lego_Inventory/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 20:40:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7uu640pnf8"},{"Name":"integrity","Value":"sha256-n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc="},{"Name":"label","Value":"_content/Lego_Inventory/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1629"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 23:40:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lego_Inventory/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 20:40:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1629"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 23:40:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lego_Inventory/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -24,6 +24,54 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 20:40:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/images/legobg.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\legobg.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UUUVrgWCR4\u002BQzjeWs8WtAqkKVo8zsZ9vo7l5Efr7rfQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"221228"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022UUUVrgWCR4\u002BQzjeWs8WtAqkKVo8zsZ9vo7l5Efr7rfQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 21:34:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/images/legobg.rphgpt3udt.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\legobg.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rphgpt3udt"},{"Name":"integrity","Value":"sha256-UUUVrgWCR4\u002BQzjeWs8WtAqkKVo8zsZ9vo7l5Efr7rfQ="},{"Name":"label","Value":"_content/Lego_Inventory/images/legobg.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"221228"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022UUUVrgWCR4\u002BQzjeWs8WtAqkKVo8zsZ9vo7l5Efr7rfQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 21:34:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/images/legologo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\legologo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JSt2F0bQM/YlnsIk1xH39DvDiIpB6mLg\u002BEMXVwm7l3I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"776202"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JSt2F0bQM/YlnsIk1xH39DvDiIpB6mLg\u002BEMXVwm7l3I=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 20:58:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/images/legologo.ticfa1xxlp.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\legologo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ticfa1xxlp"},{"Name":"integrity","Value":"sha256-JSt2F0bQM/YlnsIk1xH39DvDiIpB6mLg\u002BEMXVwm7l3I="},{"Name":"label","Value":"_content/Lego_Inventory/images/legologo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"776202"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JSt2F0bQM/YlnsIk1xH39DvDiIpB6mLg\u002BEMXVwm7l3I=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 20:58:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/images/legopine.fdz61l22ui.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\legopine.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fdz61l22ui"},{"Name":"integrity","Value":"sha256-k60eMsV8GPhpxqc1gTsU6mLr/IXIURe\u002Bnvi8/\u002B1G6pA="},{"Name":"label","Value":"_content/Lego_Inventory/images/legopine.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13866211"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022k60eMsV8GPhpxqc1gTsU6mLr/IXIURe\u002Bnvi8/\u002B1G6pA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 21:46:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/images/legopine.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\legopine.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-k60eMsV8GPhpxqc1gTsU6mLr/IXIURe\u002Bnvi8/\u002B1G6pA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13866211"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022k60eMsV8GPhpxqc1gTsU6mLr/IXIURe\u002Bnvi8/\u002B1G6pA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 21:46:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/images/starwar.1k5hcri7g5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\starwar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1k5hcri7g5"},{"Name":"integrity","Value":"sha256-nxEKNHX7eDPGuocrB1bFEECyKUCC/7LCaK03/i0aMGU="},{"Name":"label","Value":"_content/Lego_Inventory/images/starwar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2119324"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nxEKNHX7eDPGuocrB1bFEECyKUCC/7LCaK03/i0aMGU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 22:50:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/images/starwar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\starwar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nxEKNHX7eDPGuocrB1bFEECyKUCC/7LCaK03/i0aMGU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2119324"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nxEKNHX7eDPGuocrB1bFEECyKUCC/7LCaK03/i0aMGU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 22:50:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lego_Inventory/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -36,17 +84,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xtxxf3hu2r"},{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="},{"Name":"label","Value":"_content/Lego_Inventory/js/site.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 20:40:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/Lego_Inventory.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Lego_Inventory.ryfbq6bxb9.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/Lego_Inventory.0rk7ybvio4.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Lego_Inventory.0rk7ybvio4.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 23:23:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0rk7ybvio4"},{"Name":"integrity","Value":"sha256-NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk="},{"Name":"label","Value":"_content/Lego_Inventory/Lego_Inventory.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1633"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 23:16:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/Lego_Inventory.ryfbq6bxb9.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Lego_Inventory.ryfbq6bxb9.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/Lego_Inventory.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Lego_Inventory.0rk7ybvio4.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ryfbq6bxb9"},{"Name":"integrity","Value":"sha256-k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc="},{"Name":"label","Value":"_content/Lego_Inventory/Lego_Inventory.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 23:23:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1633"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 23:16:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lego_Inventory/lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>

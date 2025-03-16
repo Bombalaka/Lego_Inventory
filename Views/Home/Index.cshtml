@@ -1,8 +1,13 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Welcome To Lego Inventory"; 
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div class="hero-container d-flex flex-column align-items-center justify-content-center vh-100 text-center w-100 position-relative">
+    <div class="overlay">
+        <img src="/images/legopine.png" class="logo" alt="Lego Logo" style="width: 250px; height: 200px;" data-aos="fade-right" />
+        <h1 data-aos="fade-down" >🚀 Welcome to LEGO Inventory</h1>
+        <p data-aos="fade-up" >🧱 Keep track of your LEGO sets with ease</p>
+        <a asp-controller="Lego" asp-action="LegoList" class="btn btn-warning btn-lg" data-aos="fade-up">🧱 View LEGO Collection</a>
+    </div>
 </div>

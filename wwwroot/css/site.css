@@ -7,6 +7,11 @@ html {
     font-size: 16px;
   }
 }
+@media (min-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+}
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
@@ -18,7 +23,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  min-height: 100vh; /* Ensure it fills the full screen */
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -28,4 +33,45 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+.main-container{
+  height: 100%;
+  
+}
+/*
+.hero-container {
+  background-image: url(../images/starwar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; 
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+*/
+
+.btn-warning {
+  background-color: #f4c20d;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border: none;
 }

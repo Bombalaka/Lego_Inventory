@@ -1,7 +1,17 @@
 /* _content/Lego_Inventory/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+/* 🔹 Remove unwanted space below navbar */
+body[b-5uln8wa2iu], .main-container[b-5uln8wa2iu] {
+  margin: 0;
+  padding: 0;
+}
 
+/* 🔹 Ensure navbar has no bottom margin */
+.navbar[b-5uln8wa2iu] {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
 a.navbar-brand[b-5uln8wa2iu] {
   white-space: normal;
   text-align: center;
@@ -11,6 +21,13 @@ a.navbar-brand[b-5uln8wa2iu] {
 a[b-5uln8wa2iu] {
   color: #0077cc;
 }
+
+.logo[b-5uln8wa2iu]{
+  width: 200px;
+  margin-top: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
 
 .btn-primary[b-5uln8wa2iu] {
   color: #fff;
@@ -40,10 +57,13 @@ button.accept-policy[b-5uln8wa2iu] {
   line-height: inherit;
 }
 
-.footer[b-5uln8wa2iu] {
-  position: absolute;
-  bottom: 0;
+footer[b-5uln8wa2iu] {
+  position: relative;
+  background-color: rgba(80, 48, 80, 0.8); /* Optional: Semi-transparent */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
   width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+  margin-top: auto; /* Removes extra space */
+
 }

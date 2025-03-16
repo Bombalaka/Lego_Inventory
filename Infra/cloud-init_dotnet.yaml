@@ -3,7 +3,7 @@ package_update: true
 
 runcmd:
   # install .net runtime 9.0
-  - add-apt-respository ppa:dotnet/backports
+  - add-apt-repository ppa:dotnet/backports
   - apt-get update
   - apt-get install -y aspnetcore-runtime-9.0
 
@@ -27,7 +27,7 @@ write_files:
       KillSignal=SIGINT
       SyslogIdentifier=Lego_Inventory
       User=www-data
-      EnviromentFile=/etc/Lego_Inventory/.env
+      EnvironmentFile=/etc/Lego_Inventory/.env
 
       [Install]
       WantedBy=multi-user.target      
@@ -35,7 +35,7 @@ write_files:
     permissions: '0644'
     
     #create a directory for the environment file
-  - path: /ect/Lego_Inventory/.env
+  - path: /etc/Lego_Inventory/.env
     content: |
       ASPNETCORE_ENVIRONMENT=Production
       ASPNETCORE_URLS=http://+:5000

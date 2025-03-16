@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "83AiRn+RQcTCIw2FiAsrLFGsl/eGc5idoMFkcvzVuAc=",
+  "Hash": "ZwRbrN6eDbnQd9yNTxSxstGfXkMTFDwIo/9E2x1uaZ0=",
   "Source": "Lego_Inventory",
   "BasePath": "_content/Lego_Inventory",
   "Mode": "Default",
@@ -143,12 +143,12 @@
       "OriginalItemSpec": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\3n9a5rwnyo-ryfbq6bxb9.gz",
+      "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\3n9a5rwnyo-0rk7ybvio4.gz",
       "SourceId": "Lego_Inventory",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Lego_Inventory",
-      "RelativePath": "Lego_Inventory#[.{fingerprint=ryfbq6bxb9}]!.bundle.scp.css.gz",
+      "RelativePath": "Lego_Inventory#[.{fingerprint=0rk7ybvio4}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -157,8 +157,8 @@
       "RelatedAsset": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lego_Inventory.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "b97hpp4m8j",
-      "Integrity": "AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw=",
+      "Fingerprint": "x6b298fz9r",
+      "Integrity": "1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lego_Inventory.bundle.scp.css"
@@ -752,12 +752,12 @@
       "OriginalItemSpec": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\l8qn64l0u8-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\l8qn64l0u8-7uu640pnf8.gz",
       "SourceId": "Lego_Inventory",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Lego_Inventory",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=7uu640pnf8}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -766,8 +766,8 @@
       "RelatedAsset": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0suozzrugb",
-      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "Fingerprint": "ururm2hffy",
+      "Integrity": "dj2GUGvC5BjqKfdsipGF8JLWbXivNXp15OHRJkOHdyY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\css\\site.css"
@@ -1025,12 +1025,12 @@
       "OriginalItemSpec": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\rvvhqdld8l-ryfbq6bxb9.gz",
+      "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\rvvhqdld8l-0rk7ybvio4.gz",
       "SourceId": "Lego_Inventory",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Lego_Inventory",
-      "RelativePath": "Lego_Inventory#[.{fingerprint=ryfbq6bxb9}]?.styles.css.gz",
+      "RelativePath": "Lego_Inventory#[.{fingerprint=0rk7ybvio4}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Lego_Inventory.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "b97hpp4m8j",
-      "Integrity": "AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw=",
+      "Fingerprint": "x6b298fz9r",
+      "Integrity": "1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Lego_Inventory.styles.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "ryfbq6bxb9",
-      "Integrity": "k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=",
+      "Fingerprint": "0rk7ybvio4",
+      "Integrity": "NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Lego_Inventory.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "ryfbq6bxb9",
-      "Integrity": "k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=",
+      "Fingerprint": "0rk7ybvio4",
+      "Integrity": "NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lego_Inventory.bundle.scp.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "7uu640pnf8",
+      "Integrity": "n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1443,6 +1443,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legobg.png",
+      "SourceId": "Lego_Inventory",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\",
+      "BasePath": "_content/Lego_Inventory",
+      "RelativePath": "images/legobg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rphgpt3udt",
+      "Integrity": "UUUVrgWCR4+QzjeWs8WtAqkKVo8zsZ9vo7l5Efr7rfQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\legobg.png"
+    },
+    {
+      "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legologo.png",
+      "SourceId": "Lego_Inventory",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\",
+      "BasePath": "_content/Lego_Inventory",
+      "RelativePath": "images/legologo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ticfa1xxlp",
+      "Integrity": "JSt2F0bQM/YlnsIk1xH39DvDiIpB6mLg+EMXVwm7l3I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\legologo.png"
+    },
+    {
+      "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legopine.png",
+      "SourceId": "Lego_Inventory",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\",
+      "BasePath": "_content/Lego_Inventory",
+      "RelativePath": "images/legopine#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fdz61l22ui",
+      "Integrity": "k60eMsV8GPhpxqc1gTsU6mLr/IXIURe+nvi8/+1G6pA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\legopine.png"
+    },
+    {
+      "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\starwar.jpg",
+      "SourceId": "Lego_Inventory",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\",
+      "BasePath": "_content/Lego_Inventory",
+      "RelativePath": "images/starwar#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1k5hcri7g5",
+      "Integrity": "nxEKNHX7eDPGuocrB1bFEECyKUCC/7LCaK03/i0aMGU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\starwar.jpg"
     },
     {
       "Identity": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\js\\site.js",
@@ -2728,13 +2812,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\l8qn64l0u8-b9sayid5wm.gz",
+      "Route": "css/site.7uu640pnf8.css",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\l8qn64l0u8-7uu640pnf8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.001555209953"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2828,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "642"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"dj2GUGvC5BjqKfdsipGF8JLWbXivNXp15OHRJkOHdyY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 20:40:05 GMT"
+          "Value": "Sat, 15 Mar 2025 23:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +2856,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "7uu640pnf8"
         },
         {
           "Name": "label",
@@ -2786,12 +2870,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.7uu640pnf8.css",
       "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2885,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1629"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2893,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 20:40:05 GMT"
+          "Value": "Sat, 15 Mar 2025 23:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2907,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "7uu640pnf8"
         },
         {
           "Name": "label",
@@ -2831,13 +2915,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\l8qn64l0u8-b9sayid5wm.gz",
+      "Route": "css/site.7uu640pnf8.css.gz",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\l8qn64l0u8-7uu640pnf8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2930,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "642"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2938,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"dj2GUGvC5BjqKfdsipGF8JLWbXivNXp15OHRJkOHdyY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 20:40:05 GMT"
+          "Value": "Sat, 15 Mar 2025 23:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +2960,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "7uu640pnf8"
         },
         {
           "Name": "label",
@@ -2884,18 +2968,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-dj2GUGvC5BjqKfdsipGF8JLWbXivNXp15OHRJkOHdyY="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\l8qn64l0u8-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\l8qn64l0u8-7uu640pnf8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.001555209953"
         }
       ],
       "ResponseHeaders": [
@@ -2905,15 +2989,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "642"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"dj2GUGvC5BjqKfdsipGF8JLWbXivNXp15OHRJkOHdyY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 20:40:05 GMT"
+          "Value": "Sat, 15 Mar 2025 23:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2933,13 +3017,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc="
         }
       ]
     },
@@ -2954,7 +3038,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1629"
         },
         {
           "Name": "Content-Type",
@@ -2962,11 +3046,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 20:40:05 GMT"
+          "Value": "Sat, 15 Mar 2025 23:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2976,13 +3060,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\l8qn64l0u8-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\l8qn64l0u8-7uu640pnf8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2991,7 +3075,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "642"
         },
         {
           "Name": "Content-Type",
@@ -2999,11 +3083,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"dj2GUGvC5BjqKfdsipGF8JLWbXivNXp15OHRJkOHdyY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 20:40:05 GMT"
+          "Value": "Sat, 15 Mar 2025 23:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3021,7 +3105,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-dj2GUGvC5BjqKfdsipGF8JLWbXivNXp15OHRJkOHdyY="
         }
       ]
     },
@@ -3324,6 +3408,334 @@
       ]
     },
     {
+      "Route": "images/legobg.png",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legobg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "221228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UUUVrgWCR4+QzjeWs8WtAqkKVo8zsZ9vo7l5Efr7rfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 21:34:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UUUVrgWCR4+QzjeWs8WtAqkKVo8zsZ9vo7l5Efr7rfQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/legobg.rphgpt3udt.png",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legobg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "221228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UUUVrgWCR4+QzjeWs8WtAqkKVo8zsZ9vo7l5Efr7rfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 21:34:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rphgpt3udt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/legobg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UUUVrgWCR4+QzjeWs8WtAqkKVo8zsZ9vo7l5Efr7rfQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/legologo.png",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legologo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "776202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JSt2F0bQM/YlnsIk1xH39DvDiIpB6mLg+EMXVwm7l3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 20:58:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JSt2F0bQM/YlnsIk1xH39DvDiIpB6mLg+EMXVwm7l3I="
+        }
+      ]
+    },
+    {
+      "Route": "images/legologo.ticfa1xxlp.png",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legologo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "776202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JSt2F0bQM/YlnsIk1xH39DvDiIpB6mLg+EMXVwm7l3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 20:58:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ticfa1xxlp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/legologo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JSt2F0bQM/YlnsIk1xH39DvDiIpB6mLg+EMXVwm7l3I="
+        }
+      ]
+    },
+    {
+      "Route": "images/legopine.fdz61l22ui.png",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legopine.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13866211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k60eMsV8GPhpxqc1gTsU6mLr/IXIURe+nvi8/+1G6pA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 21:46:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fdz61l22ui"
+        },
+        {
+          "Name": "label",
+          "Value": "images/legopine.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k60eMsV8GPhpxqc1gTsU6mLr/IXIURe+nvi8/+1G6pA="
+        }
+      ]
+    },
+    {
+      "Route": "images/legopine.png",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legopine.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13866211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k60eMsV8GPhpxqc1gTsU6mLr/IXIURe+nvi8/+1G6pA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 21:46:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k60eMsV8GPhpxqc1gTsU6mLr/IXIURe+nvi8/+1G6pA="
+        }
+      ]
+    },
+    {
+      "Route": "images/starwar.1k5hcri7g5.jpg",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\starwar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2119324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nxEKNHX7eDPGuocrB1bFEECyKUCC/7LCaK03/i0aMGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 22:50:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1k5hcri7g5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/starwar.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nxEKNHX7eDPGuocrB1bFEECyKUCC/7LCaK03/i0aMGU="
+        }
+      ]
+    },
+    {
+      "Route": "images/starwar.jpg",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\starwar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2119324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nxEKNHX7eDPGuocrB1bFEECyKUCC/7LCaK03/i0aMGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 22:50:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nxEKNHX7eDPGuocrB1bFEECyKUCC/7LCaK03/i0aMGU="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\6jdtc641i6-xtxxf3hu2r.gz",
       "Selectors": [
@@ -3622,13 +4034,13 @@
       ]
     },
     {
-      "Route": "Lego_Inventory.bundle.scp.css",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\3n9a5rwnyo-ryfbq6bxb9.gz",
+      "Route": "Lego_Inventory.0rk7ybvio4.bundle.scp.css",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\3n9a5rwnyo-0rk7ybvio4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001841620626"
+          "Quality": "0.001336898396"
         }
       ],
       "ResponseHeaders": [
@@ -3638,19 +4050,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "542"
+          "Value": "747"
         },
         {
           "Name": "ETag",
-          "Value": "\"AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw=\""
+          "Value": "\"1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3666,18 +4078,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=\""
+          "Value": "W/\"NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "0rk7ybvio4"
+        },
+        {
+          "Name": "label",
+          "Value": "Lego_Inventory.bundle.scp.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc="
+          "Value": "sha256-NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk="
         }
       ]
     },
     {
-      "Route": "Lego_Inventory.bundle.scp.css",
+      "Route": "Lego_Inventory.0rk7ybvio4.bundle.scp.css",
       "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lego_Inventory.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3687,7 +4107,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1132"
+          "Value": "1633"
         },
         {
           "Name": "Content-Type",
@@ -3695,121 +4115,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=\""
+          "Value": "\"NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc="
-        }
-      ]
-    },
-    {
-      "Route": "Lego_Inventory.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\3n9a5rwnyo-ryfbq6bxb9.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "542"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw="
-        }
-      ]
-    },
-    {
-      "Route": "Lego_Inventory.ryfbq6bxb9.bundle.scp.css",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\3n9a5rwnyo-ryfbq6bxb9.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001841620626"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "542"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ryfbq6bxb9"
+          "Value": "0rk7ybvio4"
         },
         {
           "Name": "label",
@@ -3817,13 +4137,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc="
+          "Value": "sha256-NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk="
         }
       ]
     },
     {
-      "Route": "Lego_Inventory.ryfbq6bxb9.bundle.scp.css",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lego_Inventory.bundle.scp.css",
+      "Route": "Lego_Inventory.0rk7ybvio4.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\3n9a5rwnyo-0rk7ybvio4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3832,7 +4152,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1132"
+          "Value": "747"
         },
         {
           "Name": "Content-Type",
@@ -3840,56 +4160,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=\""
+          "Value": "\"1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ryfbq6bxb9"
-        },
-        {
-          "Name": "label",
-          "Value": "Lego_Inventory.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc="
-        }
-      ]
-    },
-    {
-      "Route": "Lego_Inventory.ryfbq6bxb9.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\3n9a5rwnyo-ryfbq6bxb9.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "542"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3907,7 +4182,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ryfbq6bxb9"
+          "Value": "0rk7ybvio4"
         },
         {
           "Name": "label",
@@ -3915,18 +4190,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw="
+          "Value": "sha256-1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I="
         }
       ]
     },
     {
-      "Route": "Lego_Inventory.ryfbq6bxb9.styles.css",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\rvvhqdld8l-ryfbq6bxb9.gz",
+      "Route": "Lego_Inventory.0rk7ybvio4.styles.css",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\rvvhqdld8l-0rk7ybvio4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001841620626"
+          "Quality": "0.001336898396"
         }
       ],
       "ResponseHeaders": [
@@ -3936,15 +4211,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "542"
+          "Value": "747"
         },
         {
           "Name": "ETag",
-          "Value": "\"AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw=\""
+          "Value": "\"1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3964,13 +4239,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=\""
+          "Value": "W/\"NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ryfbq6bxb9"
+          "Value": "0rk7ybvio4"
         },
         {
           "Name": "label",
@@ -3978,12 +4253,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc="
+          "Value": "sha256-NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk="
         }
       ]
     },
     {
-      "Route": "Lego_Inventory.ryfbq6bxb9.styles.css",
+      "Route": "Lego_Inventory.0rk7ybvio4.styles.css",
       "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Lego_Inventory.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3993,7 +4268,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1132"
+          "Value": "1633"
         },
         {
           "Name": "Content-Type",
@@ -4001,11 +4276,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=\""
+          "Value": "\"NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4015,7 +4290,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ryfbq6bxb9"
+          "Value": "0rk7ybvio4"
         },
         {
           "Name": "label",
@@ -4023,13 +4298,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc="
+          "Value": "sha256-NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk="
         }
       ]
     },
     {
-      "Route": "Lego_Inventory.ryfbq6bxb9.styles.css.gz",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\rvvhqdld8l-ryfbq6bxb9.gz",
+      "Route": "Lego_Inventory.0rk7ybvio4.styles.css.gz",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\rvvhqdld8l-0rk7ybvio4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4038,7 +4313,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "542"
+          "Value": "747"
         },
         {
           "Name": "Content-Type",
@@ -4046,11 +4321,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw=\""
+          "Value": "\"1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4068,7 +4343,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ryfbq6bxb9"
+          "Value": "0rk7ybvio4"
         },
         {
           "Name": "label",
@@ -4076,18 +4351,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw="
+          "Value": "sha256-1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I="
         }
       ]
     },
     {
-      "Route": "Lego_Inventory.styles.css",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\rvvhqdld8l-ryfbq6bxb9.gz",
+      "Route": "Lego_Inventory.bundle.scp.css",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\3n9a5rwnyo-0rk7ybvio4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001841620626"
+          "Quality": "0.001336898396"
         }
       ],
       "ResponseHeaders": [
@@ -4097,15 +4372,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "542"
+          "Value": "747"
         },
         {
           "Name": "ETag",
-          "Value": "\"AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw=\""
+          "Value": "\"1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4125,13 +4400,150 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=\""
+          "Value": "W/\"NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc="
+          "Value": "sha256-NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk="
+        }
+      ]
+    },
+    {
+      "Route": "Lego_Inventory.bundle.scp.css",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lego_Inventory.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1633"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk="
+        }
+      ]
+    },
+    {
+      "Route": "Lego_Inventory.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\3n9a5rwnyo-0rk7ybvio4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I="
+        }
+      ]
+    },
+    {
+      "Route": "Lego_Inventory.styles.css",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\rvvhqdld8l-0rk7ybvio4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001336898396"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "747"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk="
         }
       ]
     },
@@ -4146,7 +4558,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1132"
+          "Value": "1633"
         },
         {
           "Name": "Content-Type",
@@ -4154,11 +4566,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc=\""
+          "Value": "\"NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4168,13 +4580,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-k0cdDlMbqdkyzqsJHCbjFIYJmeO9Ligijpm896d5Asc="
+          "Value": "sha256-NL1SzZgA4bf49YwbnHhs9ymgN0Pfgmhb1Ud06Y96jWk="
         }
       ]
     },
     {
       "Route": "Lego_Inventory.styles.css.gz",
-      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\rvvhqdld8l-ryfbq6bxb9.gz",
+      "AssetFile": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\compressed\\rvvhqdld8l-0rk7ybvio4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4183,7 +4595,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "542"
+          "Value": "747"
         },
         {
           "Name": "Content-Type",
@@ -4191,11 +4603,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw=\""
+          "Value": "\"1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 23:23:28 GMT"
+          "Value": "Sat, 15 Mar 2025 23:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4213,7 +4625,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AUSf5b6lz8nAHTsTo33DFT6Hx0T5zCfcZqqm0u76eVw="
+          "Value": "sha256-1+G4GvZqfoX5oLx2x9mvQvf/ZAXLuM+W8HZe2s/Nl7I="
         }
       ]
     },

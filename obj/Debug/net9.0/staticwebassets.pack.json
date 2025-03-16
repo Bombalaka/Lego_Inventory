@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lego_Inventory.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Lego_Inventory.ryfbq6bxb9.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Lego_Inventory.0rk7ybvio4.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\css\\site.css",
@@ -11,6 +11,22 @@
     {
       "Id": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legobg.png",
+      "PackagePath": "staticwebassets\\images\\legobg.png"
+    },
+    {
+      "Id": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legologo.png",
+      "PackagePath": "staticwebassets\\images\\legologo.png"
+    },
+    {
+      "Id": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\legopine.png",
+      "PackagePath": "staticwebassets\\images\\legopine.png"
+    },
+    {
+      "Id": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\images\\starwar.jpg",
+      "PackagePath": "staticwebassets\\images\\starwar.jpg"
     },
     {
       "Id": "C:\\Users\\yotak\\Lego_Inventory\\Lego_Inventory\\wwwroot\\js\\site.js",

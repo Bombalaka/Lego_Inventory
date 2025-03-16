@@ -24,7 +24,6 @@ C:\Users\yotak\Lego_Inventory\Lego_Inventory\bin\Debug\net9.0\ZstdSharp.dll
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\scopedcss\bundle\Lego_Inventory.styles.css
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\scopedcss\projectbundle\Lego_Inventory.bundle.scp.css
-C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\l8qn64l0u8-b9sayid5wm.gz
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\hakvadhn9s-61n19gt1b8.gz
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\6jdtc641i6-xtxxf3hu2r.gz
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\tvxflkkzaf-bqjiyaj88i.gz
@@ -86,8 +85,6 @@ C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\eg7v2om
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\zl9x442haa-muycvpuwrr.gz
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\fu15fzme8u-87fc7y1x7t.gz
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\qtkft6i327-mlv21k5csn.gz
-C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\rvvhqdld8l-ryfbq6bxb9.gz
-C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\3n9a5rwnyo-ryfbq6bxb9.gz
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -103,3 +100,6 @@ C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\refint\Lego_Invent
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\Lego_Inventory.pdb
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\Lego_Inventory.genruntimeconfig.cache
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\ref\Lego_Inventory.dll
+C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\rvvhqdld8l-0rk7ybvio4.gz
+C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\3n9a5rwnyo-0rk7ybvio4.gz
+C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\l8qn64l0u8-7uu640pnf8.gz

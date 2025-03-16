@@ -1,12 +1,54 @@
 @model IEnumerable<Lego_Inventory.Models.Legoset>
 
 @{
-    ViewBag.Title = "LEGO Landing Page";
+    ViewData["Title"] = "About Us";
 }
 
-<h2>Welcome to the LEGO Inventory System!</h2>
-<p>Select an action below:</p>
-<ul>
-    <li><a asp-controller="Lego" asp-action="LegoList">View LEGO List</a></li>
-    <li><a asp-controller="Lego" asp-action="Create">Add a New LEGO Set</a></li>
-</ul>
+<div class="container mt-5">
+    <h1 class="text-center">About Us</h1>
+    <p class="text-center lead">Welcome to <strong>Lego Inventory</strong>, the ultimate tool for managing your LEGO collection with ease!</p>
+
+    <!-- Main Image -->
+    <div class="text-center" data-aos="fade-up">
+        <img src="https://images.unsplash.com/photo-1566140967404-b8b3932483f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGVnb3xlbnwwfHwwfHx8MA%3D%3D" alt="Lego Inventory Banner" class="img-fluid rounded shadow-lg w-75">
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-6" data-aos="fade-left">
+            <h3 >Why Choose Lego Inventory?</h3>
+            <ul class="list-group">
+                <li class="list-group-item">✅ <strong>Organized & Efficient</strong> – Easily manage your LEGO sets, minifigures, and bricks.</li>
+                <li class="list-group-item">✅ <strong>Search & Filter</strong> – Quickly find specific parts using advanced search and filtering options.</li>
+                <li class="list-group-item">✅ <strong>Track Availability</strong> – Keep an eye on your stock levels and avoid missing crucial pieces.</li>
+                <li class="list-group-item">✅ <strong>User-Friendly Interface</strong> – Simple, clean, and easy to use for all LEGO enthusiasts.</li>
+            </ul>
+        </div>
+        <div class="col-md-6 text-center" data-aos="fade-right">
+            <img src="https://images.unsplash.com/photo-1622816693423-0e77e48b7ca2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjU2fHxsZWdvfGVufDB8fDB8fHww" alt="Lego Collection" class="img-fluid rounded shadow-lg w-100">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-6 text-center" data-aos="fade-right">
+            <img src="https://images.unsplash.com/photo-1624979667363-2f56ca2563b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzM1fHxsZWdvfGVufDB8fDB8fHww" alt="Lego Management System" class="img-fluid rounded shadow-lg w-100">
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+            <h3>Our Mission</h3>
+            <p>
+                We created <strong>Lego Inventory</strong> to help LEGO fans and collectors organize their collections effortlessly.
+                Our goal is to provide a seamless experience, making it easier for you to find, sort, and manage your LEGO parts and sets efficiently.
+            </p>
+        </div>
+    </div>
+
+    <div class="text-center mt-5" data-aos="fade-up">
+        <h3>Get Started Today!</h3>
+        <p>Ready to take control of your LEGO collection? Sign up now and start organizing your bricks like a pro!</p>
+        <a href="/Account/Register" class="btn btn-primary">Sign Up</a>
+    </div>
+
+    <div class="text-center mt-4" data-aos="fade-up">
+        <p><strong>Contact Us:</strong> <a href="mailto:your@email.com">your@email.com</a></p>
+        <p><strong>Website:</strong> <a href="https://yourwebsite.com">yourwebsite.com</a></p>
+    </div>
+</div>
