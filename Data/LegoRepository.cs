@@ -23,8 +23,8 @@ namespace Lego_Inventory.Data
             try
             {
                 // Read connection settings from appsettings.json
-                var connnectionString = configuration["COSMOSDB_CONNECTIONSTRING"];
-                var databaseName = configuration["COSMOSDB_DATABASE"] ?? "LegoInventory";
+                var connnectionString = Environment.GetEnvironmentVariable("COSMOSDB_CONNECTIONSTRING");
+                var databaseName = Environment.GetEnvironmentVariable("COSMOSDB_DATABASE") ?? "LegoInventory";
 
                 var client = new MongoClient(connnectionString);
                  // **Test if MongoDB is reachable**
