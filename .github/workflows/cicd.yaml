@@ -67,7 +67,7 @@ jobs:
         sudo bash -c "cat > /etc/Lego_Inventory/.env << EOF
         ASPNETCORE_ENVIRONMENT=Production
         ASPNETCORE_URLS=http://+:5000
-        COSMOSDB_CONNECTIONSTRING=\"\$COSMOSDB_CONNECTIONSTRING\"
+        COSMOSDB_CONNECTIONSTRING=\"$COSMOSDB_CONNECTIONSTRING\"
         COSMOSDB_DATABASE=\"LegoInventory\"
         EOF"
         sudo chown www-data:www-data /etc/Lego_Inventory/.env
