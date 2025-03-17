@@ -13,10 +13,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Add this line before building the app
-builder.Services.AddScoped<ILegoRepository, LegoRepository>();
+//builder.Services.AddScoped<ILegoRepository, LegoRepository>();
 
 // Retrieve the CosmosDB connection string from the environment variables
 var connectionString = Environment.GetEnvironmentVariable("COSMOSDB_CONNECTIONSTRING");
+builder.Configuration["MongoDb:ConnectionString"] = connectionString;
+
 
 if (string.IsNullOrEmpty(connectionString))
 {
@@ -43,7 +45,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
