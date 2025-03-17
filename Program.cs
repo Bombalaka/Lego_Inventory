@@ -19,7 +19,7 @@ var connectionString = Environment.GetEnvironmentVariable("COSMOSDB_CONNECTIONST
 if (string.IsNullOrEmpty(connectionString))
 {
     Console.WriteLine("❌ ERROR: CosmosDB connection string is missing!");
-    throw new InvalidOperationException("Missing CosmosDB connection string.");
+    throw new Exception("Missing CosmosDB connection string.");
 }
 else
 {

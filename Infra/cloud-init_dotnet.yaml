@@ -41,8 +41,8 @@ write_files:
       ASPNETCORE_ENVIRONMENT=Production
       ASPNETCORE_URLS=http://+:5000
       COSMOSDB_DATABASE="LegoInventory"
-    owner: www-data:www-data
-    permissions: '0640'
+    owner: root:root
+    permissions: '0600'
 
 systemd:
   units:
