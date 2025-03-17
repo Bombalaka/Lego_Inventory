@@ -62,7 +62,7 @@ jobs:
 
     - name: Update environment file with Cosmos DB connection string
       env:
-      COSMOSDB_CONNECTIONSTRING: ${{ secrets.COSMOSDB_CONNECTIONSTRING }}
+        COSMOSDB_CONNECTIONSTRING: ${{ secrets.COSMOSDB_CONNECTIONSTRING }}
       run: |
         sudo bash -c "cat > /etc/Lego_Inventory/.env << 'EOF'
         ASPNETCORE_ENVIRONMENT=Production
