@@ -70,8 +70,7 @@ jobs:
         COSMOSDB_CONNECTIONSTRING=\"\$COSMOSDB_CONNECTIONSTRING\"
         COSMOSDB_DATABASE=\"LegoInventory\"
         EOF"
-        sudo chown www-data:www-data /etc/Lego_Inventory/.env
-        sudo chmod 640 /etc/Lego_Inventory/.env
+        
     - name: Start the application service
       run: |
         sudo systemctl start Lego_Inventory.service        
