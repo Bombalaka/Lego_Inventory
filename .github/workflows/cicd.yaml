@@ -54,7 +54,12 @@ jobs:
       run: |
         sudo rm -Rf /opt/Lego_Inventory || true
         sudo cp -r /home/azureuser/actions-runner/_work/Lego_Inventory/Lego_Inventory/ /opt/Lego_Inventory        
-    
+    - name: Debug Cosmos DB connection string
+      env:
+        COSMOSDB_CONNECTIONSTRING: ${{ secrets.COSMOSDB_CONNECTIONSTRING }}
+      run: |
+        echo "COSMOSDB_CONNECTIONSTRING is: '$COSMOSDB_CONNECTIONSTRING'"
+
     - name: Update environment file with Cosmos DB connection string
       env:
       COSMOSDB_CONNECTIONSTRING: ${{ secrets.COSMOSDB_CONNECTIONSTRING }}
@@ -62,7 +67,7 @@ jobs:
         sudo bash -c "cat > /etc/Lego_Inventory/.env << 'EOF'
         ASPNETCORE_ENVIRONMENT=Production
         ASPNETCORE_URLS=http://+:5000
-        COSMOSDB_CONNECTIONSTRING=\"\$COSMOSDB_CONNECTIONSTRING\""
+        COSMOSDB_CONNECTIONSTRING=\"\$COSMOSDB_CONNECTIONSTRING\"
         COSMOSDB_DATABASE=\"LegoInventory\"
         EOF"
         sudo chown www-data:www-data /etc/Lego_Inventory/.env
