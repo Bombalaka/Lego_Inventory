@@ -1,16 +1,33 @@
 using Lego_Inventory.Data;
 using Lego_Inventory.Models;
 using Microsoft.AspNetCore.Builder;
+using MongoDB.Driver;
+using DotNetEnv;
+using Microsoft.AspNetCore.DataProtection;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 
-// Register the LegoRepository as a singleton service
-builder.Services.AddSingleton<ILegoRepository, LegoRepository>();
+// Retrieve the CosmosDB connection string from the environment variables
+var connectionString = Environment.GetEnvironmentVariable("COSMOSDB_CONNECTIONSTRING");
+
+if (string.IsNullOrEmpty(connectionString))
+{
+    Console.WriteLine("❌ ERROR: CosmosDB connection string is missing!");
+    throw new InvalidOperationException("Missing CosmosDB connection string.");
+}
+else
+{
+    Console.WriteLine($"✅ CosmosDB Connection String: {connectionString}");
+}
+
+// Register the MongoDB client with the connection string
+builder.Services.AddSingleton<IMongoClient>(sp => new MongoClient(connectionString));
 
 
 var app = builder.Build();

@@ -38,7 +38,8 @@ jobs:
   deploy:
     runs-on: self-hosted
     needs: build
-
+    env:
+      COSMOSDB_CONNECTIONSTRING: ${{ secrets.COSMOSDB_CONNECTIONSTRING }}
     steps:
     - name: Download the artifacts from Github (from the build job)
       uses: actions/download-artifact@v4
@@ -53,7 +54,17 @@ jobs:
       run: |
         sudo rm -Rf /opt/Lego_Inventory || true
         sudo cp -r /home/azureuser/actions-runner/_work/Lego_Inventory/Lego_Inventory/ /opt/Lego_Inventory        
-
+    
+    - name: Update environment file with Cosmos DB connection string
+      run: |
+        sudo bash -c "cat > /etc/Lego_Inventory/.env << 'EOF'
+        ASPNETCORE_ENVIRONMENT=Production
+        ASPNETCORE_URLS=http://+:5000
+        COSMOSDB_CONNECTIONSTRING=$COSMOSDB_CONNECTIONSTRING
+        COSMOSDB_DATABASE=\"LegoInventory\"
+        EOF"
+        sudo chown www-data:www-data /etc/Lego_Inventory/.env
+        sudo chmod 640 /etc/Lego_Inventory/.env
     - name: Start the application service
       run: |
         sudo systemctl start Lego_Inventory.service        

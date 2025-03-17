@@ -11,4 +11,6 @@ az vm create --name $vm_name --resource-group $resource_group \
              --generate-ssh-keys --admin-username azureuser \
              --custom-data @cloud-init_dotnet.yaml
 
+# Inject the secret into the .env file after VM creation
+az vm run-command invoke -g $resource_group -n $vm_name --command-id RunShellScript --scripts "echo 'COSMOSDB_CONNECTIONSTRING=${COSMOSDB_CONNECTIONSTRING}' >> /etc/Lego_Inventory/.env"
 az vm open-port --port $vm_port --resource-group $resource_group --name $vm_name
