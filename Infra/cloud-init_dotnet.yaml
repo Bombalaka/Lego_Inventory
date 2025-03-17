@@ -38,7 +38,7 @@ write_files:
     #create a directory for the environment file
   - path: /etc/Lego_Inventory/.env
     content: |
-      ASPNETCORE_ENVIRONMENT=Production
+      ASPNETCORE_ENVIRONMENT=Development
       ASPNETCORE_URLS=http://+:5000
       COSMOSDB_DATABASE="LegoInventory"
       COSMOSDB_CONNECTIONSTRING=""
