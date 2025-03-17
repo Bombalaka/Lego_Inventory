@@ -12,6 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Add this line before building the app
+builder.Services.AddScoped<ILegoRepository, LegoRepository>();
 
 // Retrieve the CosmosDB connection string from the environment variables
 var connectionString = Environment.GetEnvironmentVariable("COSMOSDB_CONNECTIONSTRING");
@@ -28,6 +30,7 @@ else
 
 // Register the MongoDB client with the connection string
 builder.Services.AddSingleton<IMongoClient>(sp => new MongoClient(connectionString));
+
 
 
 var app = builder.Build();
