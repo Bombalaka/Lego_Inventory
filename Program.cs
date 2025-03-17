@@ -17,7 +17,6 @@ builder.Services.AddControllersWithViews();
 
 // Retrieve the CosmosDB connection string from the environment variables
 var connectionString = Environment.GetEnvironmentVariable("COSMOSDB_CONNECTIONSTRING");
-builder.Configuration["MongoDb:ConnectionString"] = connectionString;
 
 
 if (string.IsNullOrEmpty(connectionString))

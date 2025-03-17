@@ -83,20 +83,20 @@ namespace Lego_Inventory.Data
                 return await _collection.Find(x => x.Id == id).FirstOrDefaultAsync();
             }
         }
-        public async Task UpdateAsync(Legoset legoset)
+        public async Task UpdateAsync(Legoset legoSet)
         {
             if (_UseInMemory)
             {
-                var existing = _inMemoryStorage.Find(x => x.Id == legoset.Id);
+                var existing = _inMemoryStorage.Find(x => x.Id == legoSet.Id);
                 if (existing != null)
                 {
-                    existing.Name = legoset.Name;
-                    existing.Description = legoset.Description;
+                    existing.Name = legoSet.Name;
+                    existing.Description = legoSet.Description;
                 }
             }
             else
             {
-                await _collection.ReplaceOneAsync(x => x.Id == legoset.Id, legoset);
+                await _collection.ReplaceOneAsync(x => x.Id == legoSet.Id, legoSet);
             }
         }
     }
