@@ -32,7 +32,7 @@ namespace Lego_Inventory.Data
                 client.GetDatabase(databaseName).RunCommand<BsonDocument>(pingCommand);
 
                 var database = client.GetDatabase(databaseName);
-                _collection = database.GetCollection<Legoset>("legosets");
+                _collection = database.GetCollection<Legoset>("legoset");
 
                 Console.WriteLine("✅ Connected to MongoDB!");
 
