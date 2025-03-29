@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/css/site.7uu640pnf8.css">
+    <StaticWebAssetEndpoint Include="_content/Lego_Inventory/css/site.4239pm2se8.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7uu640pnf8"},{"Name":"integrity","Value":"sha256-n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc="},{"Name":"label","Value":"_content/Lego_Inventory/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1629"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 23:40:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4239pm2se8"},{"Name":"integrity","Value":"sha256-vGhcHzd8UWNzRW/yWBPqVfjyi9u6/37ugwiIdcl9S34="},{"Name":"label","Value":"_content/Lego_Inventory/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1510"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vGhcHzd8UWNzRW/yWBPqVfjyi9u6/37ugwiIdcl9S34=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 23:43:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lego_Inventory/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1629"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n7XaoBsHkdNRZXwBKC3op9Mmg4A3YnMnX1ER7i8aRlc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 23:40:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vGhcHzd8UWNzRW/yWBPqVfjyi9u6/37ugwiIdcl9S34="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1510"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vGhcHzd8UWNzRW/yWBPqVfjyi9u6/37ugwiIdcl9S34=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 23:43:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Lego_Inventory/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

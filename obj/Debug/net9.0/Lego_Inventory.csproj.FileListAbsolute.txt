@@ -102,4 +102,6 @@ C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\Lego_Inventory.gen
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\ref\Lego_Inventory.dll
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\rvvhqdld8l-0rk7ybvio4.gz
 C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\3n9a5rwnyo-0rk7ybvio4.gz
-C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\l8qn64l0u8-7uu640pnf8.gz
+C:\Users\yotak\Lego_Inventory\Lego_Inventory\bin\Debug\net9.0\DotNetEnv.dll
+C:\Users\yotak\Lego_Inventory\Lego_Inventory\bin\Debug\net9.0\Sprache.dll
+C:\Users\yotak\Lego_Inventory\Lego_Inventory\obj\Debug\net9.0\compressed\l8qn64l0u8-4239pm2se8.gz
