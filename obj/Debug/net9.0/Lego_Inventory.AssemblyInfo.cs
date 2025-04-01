@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("2abc1b2a-220a-4be4-80b4-3981e30eb80c")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lego_Inventory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7913d1c9a23ad270be3e44df5a5d2f5240067610")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41e55c60efa199a676cc95aca333deadd8f5631e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lego_Inventory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lego_Inventory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
